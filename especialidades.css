@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+ 
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: #F2F2F2;
+}
+
+ .img_logo{
+    width: 250px;
+    height: 250px;
+ }
+
+
+ header{
+    height: 25vh;
+    background-color: #010440;
+    box-shadow: 0 0 1rem black;
+    display: flex;
+ }
+
+ .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+ }
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+ .qdd_1{
+    width: 40vh;
+    height: 75vh;
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #010440;
+    gap: 15px;
+ }
+
+.ortodontia{
+    width: 100%;
+    height: 300px;
+    background-color: #010440;
+    border-radius: 20px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_usuario{
+    width: 180px;
+    height: 180px;
+}
+
+ .qdd_2{
+    width: 40vh;
+    height: 75vh;
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #010440;
+    gap: 15px;
+ }
+
+ .clinico_geral{
+    width: 100%;
+    height: 300px;
+    background-color: #010440;
+    border-radius: 20px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .qdd_3{
+    width: 40vh;
+    height: 75vh;
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #010440;
+    gap: 15px;
+ }
+
+.estetica{
+    width: 100%;
+    height: 300px;
+    background-color: #010440;
+    border-radius: 20px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qdd_4{
+    width: 40vh;
+    height: 75vh;
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #010440;
+    gap: 15px;
+ }
+
+ .odonto_pediatra{
+    width: 100%;
+    height: 300px;
+    background-color: #010440;
+    border-radius: 20px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+ 
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: #F2F2F2;
+}
+
+ .img_logo{
+    width: 250px;
+    height: 250px;
+ }
+
+
+ header{
+    height: 25vh;
+    background-color: #010440;
+    box-shadow: 0 0 1rem black;
+    display: flex;
+ }
+
+ .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+ }
+
+.container{
+    
+}
+
+.txt_principal{
+    width: 100vw;
+    height: 100px;
+    background-color: ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+
+.periodos{
+    display: flex;
+    flex-direction: row;
+}
+
+.periodo_manha{
+    width: 50vw;
+    height: 300px;
+    background-color: ;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.manha{
+    width: 250px;
+    height: 50px;
+    background-color: #c9c9c9;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #010440;
+    font-size: 19px;
+}
+
+
+.periodo_tarde{
+    width: 50vw;
+    height: 300px;
+    background-color: ;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.tarde{
+    width: 250px;
+    height: 50px;
+    background-color: #c9c9c9;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #010440;
+    font-size: 19px;
+}
+
+.radio{
+    cursor: pointer;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: none;
+    border: 3.5px solid #010440;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.radio:before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #010440;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.radio:checked:before{
+    opacity: 1;
+}
+
+.proximo{
+    width: 100vw;
+    height: 155px;
+    background-color:  q;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_proximo{
+    width: 130px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #00008B;
+    border: 1px solid #00008B;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn_proximo:hover{
+    background-color: white;
+    color: #00008B;
